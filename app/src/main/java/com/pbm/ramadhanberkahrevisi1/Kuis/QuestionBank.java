@@ -2,26 +2,34 @@ package com.pbm.ramadhanberkahrevisi1.Kuis;
 
 public class QuestionBank {
     private String textQuestions [] = {
-            "1.Waktu shalat subuh dimulai dari munculnya?",
-            "2. Cara Menjadi Kuat seperti karakter anime?",
-            "3. Siapa Presiden Indonesia Sekarang?",
-            "4. Apa Nama Ibukota Indonesia?",
-            "5. Jika Tahun ini 2020,maka Tahun depan?",
-            "6. ini pertanyaan keemam?"
+            "1. Waktu shalat subuh dimulai dari munculnya?",
+            "2. Yang tidak termasuk syarat-syarat shalat adalah?",
+            "3. Memejamkan mata, menutup mulut rapat-rapat, dan menengadah ke langit, termasuk ke dalam?",
+            "4. Shalat tarawih dilaksanakan pada malam hari selama?",
+            "5. Puasa ramadan termasuk ibadah wajib yang sudah dijelaskan melalui firman Allah SWT dalam al-Quran surah?",
+            "6. Yang tidak termasuk syarat-syrat wajib berpuasa adalah?",
+            "7. Yang termasuk ke dalam makruh puasa adalah?",
+            "8. Hal-hal yang diperbolehkan untuk tidak berpuasa adalah?",
+            "9. Yang tidak termasuk ke dalam rukun shalat, yaitu?",
+            "10. Pengertian fajar Shadiq adalah?",
 
     };
 
     // array of multiple choices for each question
     private String multipleChoice [][] = {
-            {"Fajar kidzib", "Syafaq", "dipegang oleh elit global", "Dimars"},
-            {"Masuk Isekai", "Makan Buah Iblis", "Menggunakam Chakra Kyubii", "Meminta Bantuan Kami-sama"},
-            {"Megawati", "Prabowo", "Bj Habibi", "Jokowi"},
-            {"Palembang", "Bandung", "Jakarta", "Surabaya"},
-            {"1999", "2022", "2010", "2021"},
-            {"Megawati", "Prabowo", "Bj Habibi", "Jokowi"},
+            {"Fajar kidzib", "Syafaq", "Fajar shadiq", "Mega-mega merah"},
+            {"Sudah baligh dan berakal", "Menutup aurat", "Berhadast", "Suci seluruh anggota badan, pakaian dan tempat"},
+            {"Syarat shalat", "Makruh shalat", "Rukun shalat", "Yang membatalkan shalat"},
+            {"Bulan ramadhan", "Bulan syawal", "Bulan rajab", "Bulan syaban"},
+            {"Q.S Al-Baqarah ayat 182", "Q.S Al-Baqarah ayat 183", "Q.S Al-Baqarah ayat 184", "Q.S Al-Baqarah ayat 185"},
+            {"Berakal", "Islam", "Belum baligh", "Sehat Jasmani dan rohani"},
+            {"Sahur", "Segera berbuka saat waktu berbuka", "Merasakan makanan dengan lidah", "Berbuka dengan yang manis"},
+            {"Perjalanan jauh", "Menyusui dan hamil", "Lanjut usia", "Semua benar"},
+            {"Membaca niat, takbiartul ihram, berdiri tegak", "Sujud, duduk di antara dua sujud, tertib", "Membaca fatihah, rukuk, membaca qunut", "Berdiri tegak, membaca fatihah, rukuk, sujud"},
+            {"Cahaya putih yang melintang di ufuk barat sampai matahari terbit", "Cahaya putih yang melintang di ufuk timur sampai matahari terbit", "Cahaya putih yang lurus keatas di ufuk barat sampai matahari terbit", "Cahaya putih yang lurus keatas di ufuk timur sampai matahari terbit"},
     };
 
-    private String mCorrectAnswers[] = {"YNTKTS", "Masuk Isekai", "Jokowi", "Jakarta", "2021", "Prabowo"};
+    private String mCorrectAnswers[] = {"Fajar shadiq", "Berhadast", "Makruh shalat", "Bulan ramadan", "Q.S Al-Baqarah ayat 183", "Belum baligh", "Merasakan makanan dengan lidah", "Semua benar", "Membaca fatihah, rukuk, membaca qunut", "Cahaya putih yang melintang di ufuk timur sampai matahari terbit" };
 
     public int getLength(){
         return textQuestions.length;
