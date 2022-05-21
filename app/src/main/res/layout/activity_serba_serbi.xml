@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SerbaSerbiActivity"
+    android:background="@drawable/background">
+
+    //header
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="203dp"
+        android:orientation="horizontal">
+
+        //Serba-Serbi Text
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serba-Serbi"
+                android:fontFamily="@font/ramadhan_karim"
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"/>
+
+        //Logo
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    //hadist
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_hadist"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_serbaserbi"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hadist"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#31D590"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="@font/littlemisspriss"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    //ngabuburit
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_ngabuburit"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_serbaserbi"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngabuburit"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#31D590"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="@font/littlemisspriss"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    //kuis
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_kuis"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_serbaserbi"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuis"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#31D590"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="@font/littlemisspriss"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

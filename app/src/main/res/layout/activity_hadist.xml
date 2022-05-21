@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hadist.HadistActivity"
+    android:background="@drawable/background3"
+    android:orientation="vertical">
+
+    //Header
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        //Ramadhan Berkah Text
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hadist"
+                android:fontFamily="@font/ramadhan_karim"
+                android:textSize="52sp"
+                android:textColor="#fff"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                 android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        //Logo
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+    //List Hadist
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="627dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="-10dp"
+            android:src="@drawable/bottom" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+

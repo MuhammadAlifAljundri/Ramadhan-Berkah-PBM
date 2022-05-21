@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Kisah.KisahParaSahabatNabiActivity1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_kisah"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Kisah Abu Talhah"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abu Thalhah merupakan sahabat yang telah setia berjihad bersama orang-orang Islam sejak masa Nabi, Abu Bakar, dan Umar ibn Khattab. Ia selalu berpuasa, kecuali di hari-hari besar yang memang diharamkan untuk berpuasa.
+       Di masa pemerintahan Usman bin Affan, ketika orang Islam hendak melakukan jihad melawan orang kafir yang telah menghalangi dakwah orang Islam, Abu Thalhah yang sudah sangat tua itu tetap semangat ingin mengikuti jihad.
+       Abu Thalhah bersama orang-orang Islam lainnya melewati laut yang besar. Mereka menaiki kapal besar untuk perjalanan menuju daerah musuh. Namun di tengah perjalanan Abu Thalhah sakit, dan pada saat itu pula ia meninggal.
+       Para muslimin tidak menemukan dataran untuk menguburkan jenazahnya hingga 7 hari. Dalam waktu itu, jenazah Abu Thalhah hanya ditutupi kain saja. Namun, jenazah Abu Thalhah tidak ada bau menyengat.
+       Kebiasaan berpuasa dan setia dengan jihad yang dilakukan Abu Thalhah membuatnya demikian. Jenazahnya tetap utuh walau dalam waktu beberapa hari. Sangat mungkin jika jenazahnya akan tetap utuh walau dia sudah dikuburkan."
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_forwad1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_forwad"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-100dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

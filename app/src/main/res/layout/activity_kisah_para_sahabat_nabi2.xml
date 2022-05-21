@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Kisah.KisahParaSahabatNabiActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_kisah"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Pura-pura Berbuka Puasa"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sesaat sebelum waktu Magrib tiba, rumah salah satu sahabat Rasulullah Muhammad saw., Tsabit Al-Anshari kedatangan tamu.
+            Seorang musafir mampir tanpa sedikit pun bekal yang bisa dimakan guna berbuka puasa. Tsabit bingung. Di satu sisi, ia ingat pesan-pesan Nabi tentang kesunahan memuliakan tamu, tapi persoalan berikutnya, kondisi ekonomi yang terbatas benar-benar tengah melanda rumah tangganya.
+            Tsabit terdiam sejenak, memutar otak. Akhirnya ia sampaikan sebuah siasat kepada sang istri agar mematikan lampu saat waktu berbuka tiba. ang tamu dipersilakan menyantap hidangan yang serba pas-pasan itu. Namun, Tsabit dan istrinya cuma berkecap-kecap seolah turut bersantap, padahal ujung tangan keduanya sama sekali tak menyentuh hidangan.
+            Keesokan harinya, sang tamu pamit untuk melanjutkan perjalanan. Tsabit pun kembali menghadiri majelis untuk mendapatkan berkah dan pencerahan dari Nabi. Ketika keduanya berjumpa, tiba-tiba Rasulullah tersenyum dan bersabda:
+            Wahai Tsabit, Allah swt. menghargai pelayananmu terhadap tamumu semalam. Tsabit tersentak. Rasa gembira, malu, sekaligus haru, bercampur di dadanya. "
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_back1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_arrow_back"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+    <ImageView
+        android:id="@+id/img_forwad2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_forwad"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-45dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

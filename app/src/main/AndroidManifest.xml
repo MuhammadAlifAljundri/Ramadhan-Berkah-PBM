@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pbm.ramadhanberkahrevisi1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RamadhanBerkahRevisi1">
+        <activity
+            android:name=".Kisah.KisahParaSahabatNabiActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah.KisahParaSahabatNabiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah.KisahParaSahabatNabiActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".NgabuburitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kuis.HighestScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kuis.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Hadist.HadistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SerbaSerbiActivity"
+            android:exported="false" />
+        <activity android:name=".Hadist.HadistDetailActiviity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

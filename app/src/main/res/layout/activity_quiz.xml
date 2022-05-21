@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kuis.QuizActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_quiz">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/oil_lamp"
+        android:layout_gravity="end"
+        android:layout_marginTop="96dp"
+        android:elevation="5dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#D8FDF8">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Question to answer"
+          android:textSize="25sp"
+          android:layout_marginTop="50dp"
+          android:padding="20dp"
+          android:textStyle="bold"
+          android:layout_marginBottom="10dp"
+          android:id="@+id/question"/>
+    </androidx.cardview.widget.CardView>
+
+  </FrameLayout>
+
+
+
+  <Button
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="A"
+      android:background="@drawable/bg_rounded_all_2"
+      android:backgroundTint="#009688"
+      android:textColor="#fff"
+      android:padding="8dp"
+      android:onClick="onClick"
+      android:layout_marginBottom="24dp"
+      android:id="@+id/choice1"/>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="B"
+      android:background="@drawable/bg_rounded_all_2"
+      android:backgroundTint="#009688"
+      android:textColor="#fff"
+      android:padding="8dp"
+      android:onClick="onClick"
+      android:layout_marginBottom="24dp"
+      android:id="@+id/choice2"/>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="C"
+      android:background="@drawable/bg_rounded_all_2"
+      android:backgroundTint="#009688"
+      android:textColor="#fff"
+      android:padding="8dp"
+      android:onClick="onClick"
+      android:layout_marginBottom="24dp"
+      android:id="@+id/choice3"/>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="D"
+      android:background="@drawable/bg_rounded_all_2"
+      android:backgroundTint="#009688"
+      android:textColor="#fff"
+      android:padding="8dp"
+      android:layout_marginBottom="24dp"
+      android:id="@+id/choice4"
+      android:onClick="onClick" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="6dp"
+
+      android:layout_gravity="center_horizontal"
+      android:background="@drawable/bg_rounded_all_2"
+      android:backgroundTint="#FE7701"
+      android:layout_marginBottom="2dp">
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="Score" />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_text"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:text="0/0" />
+  </RelativeLayout>
+
+  </LinearLayout>
