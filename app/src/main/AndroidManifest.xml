@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RamadhanBerkahRevisi1">
         <activity
+            android:name=".SyaratPuasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoaPuasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NiatPuasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puasa.PuasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shalat.ShalatWitirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shalat.ShalatTarawihActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shalat.ShalatFardhuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shalat.ShalatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sejarah.SejarahIslamActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Sejarah.SejarahIslamActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Sejarah.SejarahIslamActivity1"
+            android:exported="false" />
+        <activity
             android:name=".Kisah.KisahParaSahabatNabiActivity3"
             android:exported="false" />
         <activity

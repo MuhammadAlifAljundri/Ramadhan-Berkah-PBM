@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Sejarah.SejarahIslamActivity1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_kisah"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Masjid Agung Demak"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Pada masa kejayaannya, Kesultanan Demak menjadi pusat tempat utama pengembangan para ulama di Nusantara. Bangunan masjid yang dibangun oleh Raden Patah dan para wali itu pun makin ramai didatangi oleh orang-orang dari berbagai penjuru wilayah nusantara.
+       Masjid ini memiliki flosofinya tersendiri. Atap itu memiliki filosofi akidah Agama Islam, yaitu Iman, Islam, dan Ihsan. Bagian serambi ini memiliki delapan tiang yang disebut sebagai Saka Majaphit. Delapan pilar penyangga itu konon dibawa langsung dari keraton Majapahit. Hampir dua pertiga bagian Saka Majapahit ini memiliki ukiran motif sulur dan motif tumpal yang mengagumkan. Tak hanya pilar serambi, ada pula empat tiang utama yang disebut sebagai Saka Tatal atau Saka guru. Tiang ini terdapat di empat penjuru mata angin yang menyangga ruang utama masjid. Saka Guru konon katanya dibuat langsung oleh empat wali yang membantu pembangunan masjid.
+       Pengunjung bisa menyaksikan berbagai interior lawas yang terawat dan mempercantik bangunan ini. Salah satunya adalah keramik annam biru putih dengan motif tumbuhan, binatang mitos, dan pola giometris yang terdapat di dinding-dinding ruang utama. "
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_forwad11"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_forwad"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-100dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

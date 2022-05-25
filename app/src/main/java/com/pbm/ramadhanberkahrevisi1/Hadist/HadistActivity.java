@@ -82,5 +82,6 @@ public class HadistActivity extends AppCompatActivity {
         hadistArrayList.add(new Hadist("Hukum Mendahului Puasa Ramadhan", hadist10));
         hadistArrayList.add(new Hadist("Tiga Orang yang Dibolehkan meminta-minta", hadist11));
 
+
     }
 }

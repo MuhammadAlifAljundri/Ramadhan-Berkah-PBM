@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Kisah.KisahParaSahabatNabiActivity1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shalatlogo"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Shalat Fardhu"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shalat ialah berhadap hati kepada Allah SWT sebagai ibadah, yang diwajibkan atas tiap-tiap orang Islam (shalat wajib) baik laki-laki maupun perempuan berupa perbuatan/perkataan dan berdasarkan atas syarat-syarat dan rukun tertentu, yang dimulai dengan takbir dan diakhiri dengan salam.
+Adapun yang menjadi shalat wajib bagi seorang muslim adalah shalat lima waktu yang dikerjakan sebanyak lima kali sehari dalam waktu-waktu tertentu. Kecuali berhalangan oleh sebab-sebab tertentu yang dibenarkan oleh agama, selebihnya Shalat Wajib tidak boleh ditinggalkan oleh Muslim yang telah pubertas. Shalat Wajib terdiri atas; Shalat Subuh(2 raka’at), Shalat Dzuhur (4 raka’at), Shalat Ashar (4 raka’at), Shalat Maghrib (3 raka’at), dan Shalat ‘Isya (4 raka’at).
+Waktu shalat berbeda-beda pada setiap tempat atau wilayah, bahkan perbedaan ni juga terasa dari waktu ke waktu sebab waktu shalat berkaitan dengan peredaran semu matahari terhadap bumi. Untuk menentukan waktu shalat diperlukan letak geografis, waktu (tanggal), dan ketinggian.
+1. Shalat Subuh; dimulai sejak munculnya fajar shaddiq, yaitu cahaya putih yang melintang di ufuk timur sampai ketika matahari terbit. Untuk di Indonesia menurut WIB kira-kira sekitar pukul +30-05.30 WIB.(Baca : Makna Doa Qunut)
+2. Shalat Dzuhur; dimulai jika matahari telah condong ke arah barat sampai tiba waktu Ashar. Untuk di Indonesia menurut WIB kira-kira sekitar pukul +00-14.30 WIB.
+3. Shalat Ashar; diawali ketika kita meletakkan benda dan bayangannya lebih panjang dari benda itu sendiri (dalam Mazhab Hanafi jika panjang bayangan dua kali panjang benda), berakhir ketika matahari terbenam. Untuk di Indonesia menurut WIB kira-kira sekitar pukul +00-17.30 WIB.(Baca : Keutamaan Shalat Ashar Berjamaah)
+4. Shalat Maghrib; dimulai sejak terbenamnya matahari sampai masuk waktu ‘Isya. Untuk di Indonesia menurut WIB kira-kira sekitar pukul +00-19.30 WIB.(Baca : Shalat Taubat)
+5. Shalat ‘Isya; dimulai sejak hilangnya cahaya merah (syafaq) di barat sampai terbit fajar shaddiq esok pagi. Untuk di Indonesia menurut WIB kira-kira sekitar pukul +00-04.00 keesokan paginya.
+
+Syarat – Syarat Shalat
+1. Beragama Islam.
+2. Sudah baligh dan berakal.
+3. Suci dari hadast atau najis.(Baca : Jenis-Jenis Najis Dalam Islam)
+4. Suci seluruh anggota badan, pakaian, dan tempat.
+5. Menutup aurat; laki-laki auratnya antara pusar sampa lutut, sedangkan wanita auratnya seluruh anggota badan kecuali muka dan kedua telapak tangan.
+6. Telah masuk waktu yang sudah ditentukan untuk masing-masing shalat.
+7. Menghadap kiblat.
+8. Mengetahui mana yang rukun dan mana yang sunnat.
+
+Rukun Shalat
+1. Membaca niat
+2. Takbiratul ihram.
+3. Berdiri tegak bagi yang mampu, boleh sambil duduk atau berbaring bagi yang sedang sakit.
+4. Membaca surah Al-Fatihah pada tiap-tiap raka’at.
+5. Ruku’ dengan thuma’ninah.
+6. I’tidah dengan thuma’ninah.
+7. Sujud dengan kali dan thuma’ninah.
+8. Duduk antara dua sujud dengan thuma’ninah.
+9. Duduk tasyahud akhir dengan thuma’ninah.
+10. Membaca tasyahud akhir.(Baca : Shalat Hajat)
+11. Membaca shalawat Nabi pada tasyahud akhir.
+12. Membaca salam yang pertama.
+13. Tertib; berurutan dalam mengerjakan rukun-rukun shalat
+
+Yang Membatalkan Shalat
+1. Bila sala satu syarat atau rukunnya tidak dikerjakan atau sengaja tidak dikerjakan.
+2. Terkena najis yang tidak dimaafkan.(Baca : Cara Membersihkan Najis)
+3. Terbuka auratnya.
+4. Berkata-kata dengan sengaja walau hanya satu huruf tapi yang memberi pengertian.
+5. Mengubah niat; misalnya ingin memutuskan shalat.
+6. Makan atau minum saat shalat walau hanya sedikit.
+7. Tertawa terbahak-bahak.
+8. Membelakangi kiblat.
+9. Mendahului imamnya dua rukun (jika shalat berjamah).
+10. Murtad (keluar dari Islam).
+11. Menambah rukun yang berupa perbuatan seperti ruku’ dan sujud.
+12. Bergerak berturut-turut tiga kali seperti melangkah atau berjalan dengan sengaja.
+
+Makruh Shalat
+1. Menaruh telapak tangan di dalam lengan baju ketika takbiratul ihram, ruku’, dan sujud.
+2. Memejamkan mata.
+3. Menutup mulutnya rapat-rapat.
+4. Memalingkan muka ke kiri dan kanan (tengok sana sini)
+5. Menengadah ke langit.
+6. Kepalanya terbuka.
+7. Bertolak pinggang.
+8. Menahan hadast.
+9. Meludah
+10. Mengerjakan shalat di atas kuburan.
+11. Melakukan hal-hal yang dapat mengurangi kekhusyuk’an shalat.
+
+Perbedaan Shalat Laki-laki dan Perempuan
+Laki-laki
+• Auratnya antara pusar sampai lutut.
+• Merenggangkan kedua siku tangan dari kedua lambung saat ruku’ dan sujud.
+• Saat ruku’ dan sujud mengangkat pertunya dari kedua paha.
+• Menyaringkan suara bacaannya.
+• Bila terdapat kesalahan maka menegur imam dengan ucapan tasbih Sunhaanallah.
+Perempuan
+• Auratnya seluruh tubuh kecuali muka dan kedua telapak tangan.
+• Merapatkan satu anggota tubuh kepada anggota tubuh lainnya.
+• Saat ruku’ dan sujud meletakkan perut pada kedua paha.
+• Merendahkan suara bacaan di hadapan laki-laki yang bukan muhrim.
+• Bila terdapat kesalahan maka menegur imam dengan tepuk tangan; yaitu telapak tangan kanan dipukulkan ke punggung tangan yang kiri.
+
+NIAT
+Niat Sholat Subuh
+أُصَلِّى فَرْضَ الصُّبْح رَكَعتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+‘Ushalli fardhas subhi rak’ataini mustqbilal qiblati adaa-an (ma’mumam/imaaman) lillaahi ta’aalaa. Allaahu akbar.’
+Latin: ‘Usholli Fardlon Shubhi Rok'ataini Mustaqbilal Qiblati Adaa-an Lillahi ta'aala’
+Artinya: ‘Aku niat melakukan sholat fardu subuh 2 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala’
+
+Niat Sholat Dzuhur
+اُصَلِّيْ فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+‘Ushalli fardhadz dzuhri arba’a raka’aatin mustqbilal qiblati adaa-an (ma’mumam/imaaman) lillaahi ta’aalaa. Allaahu akbar.’
+Latin: ‘Usholli Fardlon dhuhri Arba'a Rok'aataim Mustaqbilal Qiblati Adaa-an Lillahi ta'aala’
+Artinya: ‘Aku niat melakukan sholat fardu dhuhur 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala’
+
+Niat Sholat Ashar
+أُصَلِّى فَرْضَ العَصْرِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+‘Ushalli fardhal ashri arba’a raka’aatin mustqbilal qiblati adaa-an (ma’mumam/imaaman) lillaahi ta’aalaa. Allaahu akbar.’
+latin: ‘Usholli Fardlol Ashri Arba'a Roka'aataim Mustaqbilal Qiblati Adaa-an Lillahi ta'aala’
+Artinya: ‘Aku niat melakukan sholat fardu ashar 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala’
+
+Niat Sholat Maghrib
+أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَ
+‘Ushalli fardhal maghribi salasa’ raka’aatin mustqbilal qiblati adaa-an (ma’mumam/imaaman) lillaahi ta’aalaa. Allaahu akbar.’
+Latin: ‘Usholli Fardlol Maghribi Tsalaatsa Roka'aataim Mustaqbilal Qiblati Adaa-an Lillahi ta'aala’
+Artinya: ‘Aku niat melakukan sholat fardu maghrib 3 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala’
+
+Niat Sholat Isya
+أُصَلِّى فَرْضَ العِشَاء ِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+‘Ushalli fardhal ‘Isyaa-i raka’aatin mustqbilal qiblati adaa-an (ma’mumam/imaaman) lillaahi ta’aalaa. Allaahu akbar.’
+Latin: ‘Usholli Fardlol I'syaa-i Arba'a Roka'aataim Mustaqbilal Qiblati Adaa-an Lillahi ta'aala’
+Artinya: ‘Aku niat melakukan sholat fardu isya 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta'ala’
+Niat sholat diatas adalah niat sholat ketika melakukan sholat sendirian
+
+
+"
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

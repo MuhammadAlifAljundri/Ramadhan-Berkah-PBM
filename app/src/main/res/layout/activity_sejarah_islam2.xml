@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Sejarah.SejarahIslamActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_kisah"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Kerajaan Islam di Aceh"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Kerajaan Samudera Pasai merupakan Kerajaan Islam pertama dan tertua di Indonesia. Berdiri pada abad 13 Masehi, terletak di Kabupaten Lhokseumawe, Aceh Utara.
+       Kerajaan ini didirikan oleh Sultan Malik Al Saleh atau Meurah Silu (nama sebelum masuk Islam) yang juga merupakan raja pertama Samudera Pasai.
+       Sebelumnya, kerajaan Samudera Pasai terdiri dari atas kerajaan berbeda yakni Kerajaan Samudera (Peurlak) dan Pasai (Pase). Kedua kerajaan bersatu setelah kedatangan para pedagang islam dan menyebarnya islam di Aceh.
+       Wilayah kekuasaan Samudera Pasai cukup luas, mencapai seluruh wilayah Aceh. Pada masa jayanya, Samudera Pasai merupakan pusat perdagangan penting yang sering dikunjungi pedagang dari Cina, India, Siam, Arab, dan Persia, dengan komoditas utama saat itu adalah lada.
+       Samudera Pasai meninggalkan bukti arkeologis cukup banyak di antaranya makam Sultan Malik Al-Saleh. Koin emas dirham yang merupakan mata uang Kerajaan Samudera Pasai saat itu, Lonceng Cakra Donya, dan Hikayat Raja-raja Pasai. "
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_back11"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_arrow_back"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+    <ImageView
+        android:id="@+id/img_forwad12"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_forwad"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="-45dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

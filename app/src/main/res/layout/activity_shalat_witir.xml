@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Kisah.KisahParaSahabatNabiActivity1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shalatlogo"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Shalat Witir"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shalat witir adalah salah satu ibadah sunah yang dikerjakan antara salat Isya hingga Subuh. Shalat witir biasanya dikerjakan setelah salat malam, tahajud, dan salat Tarawih.
+Saat bulan Ramadan tiba, umat Islam disunahkan untuk mengerjakan shalat Tarawih. Shalat yang hanya dikerjakan di bulan penuh berkah dan rahmat ini biasanya ditutup dengan mengerjakan shalat Witir. Shalat Witir bisa dikerjakan tiga rakaat, lima, bahkan satu rakaat.
+Jumlah rakaat shalat witir itu ganjil. Bisa tiga rakaat, lima, bahkan satu rakaat. Hal ini sebagaimana yang disebutkan dalam sebuah hadis yang diriwayatkan oleh Abu Dawud, artinya:
+‘Shalat witir wajib bagi setiap muslim. Barang siapa yang ingin berwitir dengan lima rakaat, maka kerjakanlah; yang ingin berwitir tiga rakaat, maka kerjakanlah; dan yang ingin berwitir satu rakaat, maka kerjakanlah!’ (HR. Abu Dawud)
+Niat Shalat Witir
+Niat Salat Witir Sendiri Satu Rakaat
+أصلى سنة من الوتر ركعة لله تعالى
+Ushallii sunnatam minal witri rak'atal lillaahhi ta'aalaa.
+Artinya: 'Aku niat shalat sunnat witir satu rakaat karena Allah ta'ala.'
+2. Niat Salat Witir Sendiri Dua Rakaat
+أصلى سنة من الوتر ركعتين لله تعالى
+Ushallii sunnatam minal witri rak'ataini lillaahhi ta'aalaa.
+Artinya: ‘Aku niat shalat sunnah witir 2 rakaat karena Allah ta'ala.’
+        3. Niat Salat Witir Sendiri Tiga Rakaat Sekaligus
+        اُصَلِّى سُنَّةَ الْوِتْرِ ثَلَاثَ رَكْعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلهِ تَعَالَى
+        Ushalli sunnatal witri tsalâtsa raka‘âtin mustaqbilal qiblati adâ’an lillâhi ta‘âlâ
+        Artinya: ‘Aku menyengaja sembahyang sunnah shalat witir tiga rakaat dengan menghadap kiblat, karena Allah Ta’ala.’
+
+
+        Keutamaan Shalat Witir
+        Banyak sekali keutamaan shalat witir yang bisa didapatkan setiap Muslim. Rasulullah selalu rutin menjalankan ibadah sunnah satu ini karena memiliki banyak keutamaan. Seperti mengutip dari NU Online, berikut beberapa keutamaan shalat witir:
+        Sebagai Tambahan Shalat
+        Keutamaan shalat witir yang pertama, yaitu sebagai tambahan salat. Shalat sunnah yang dianjurkan untuk dikerjakan di antara waktu sholat fardhu yakni setelah sholat Isya dan sebelum waktu sholat subuh. Hal ini sebagaimana yang tertuang dalam sebuah hadits, yang artinya:
+        ‘Sesungguhnya Allah Subhanahu wa Ta’ala telah memberi kalian tambahan sholat, yaitu sholat Witir, maka sholat Witirlah kalian antara waktu sholat Isya hingga sholat Subuh’ (HR. Ahmad).
+        Dikabulkannya Doa
+        Keutamaan salat witir bagi umat Muslim selanjutnya, yaitu dikabulkan doa dan permintaannya. Jika memiliki keinginan dan didengar oleh Allah SWT, Anda bisa menyampaikan hajat tersebut setelah salat witir. Pasalnya, ketika seorang sedang bersujud kepada Allah sebenarnya pada posisi itu yang paling dekat dengan Allah SWT.
+        Salah satu keutamaan salat witir adalah penyempurna salat malam. Ibadah sholat sunnah ini baik dilaksankan sebelum tidur atau setelah bangun tidur. Tanpa sholat witir, tidak akan sempurna sholat malam atau qiyamul lail seorang Muslim.
+        Keutamaan salat witir ini sebagaimana yang telah disebutkan dalam salah satu hadis, Rasulullah SAW bersabda:
+        Artinya, ‘Jadikanlah akhir sholat kalian di malam hari dengan sholat Witir’
+        Dicintai Allah SWT
+        Seorang Muslim yang menjalankan ibadah salat witir akan dicintai Allah SWT. Sebagaimana rakaat salat witir yang ganjil, Allah sangat menyukai sesuatu yang ganjil. Hal ini sebagaimana yang telah disebutkan dalam hadis Rasulullah SAW berikut:
+        ‘Sesungguhnya Allah itu ganjil dan menyukai orang-orang yang melakukan sholat witir, maka sholat witirlah, wahai para ahli Alquran.’"
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+</LinearLayout>

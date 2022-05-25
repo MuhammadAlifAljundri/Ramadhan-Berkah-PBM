@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Kisah.KisahParaSahabatNabiActivity1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shalatlogo"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Shalat Tarawih"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sholat tarawih dilaksanakan pada malam hari selama bulan Ramadan. Jumlah rakaat sholat tarawih biasanya sebanyak 20 rakaat, dilanjutkan 3 rakaat witir. Ada pula yang melaksananya sebanyak 8 rakaat dan 3 rakaat witir.
+Meskipun harus melaksanakan ibadah sholat tarawih dirumah, bukan berarti mengurangi tingkat kekhusyukannya. Justru hal ini dapat menjadi kesempatan untuk lebih banyak mendekatkan diri kepada Allah SWT.
+Sholat tarawih termasuk sholat sunnah yang dilakukan pada malam hari di bulan Ramadan. Sholat tarawih dimulai setelah sholat Isya dan berakhir pada waktu Subuh.
+Bagi mereka yang mendirikan sholat tarawih, maka ganjaran yang cukup besar disediakan Allah SWT. Hal ini seperti yang diriwayatkan dalam sebuah hadis.
+'Rasulullah SAW bersabda, 'Siapa saja yang berdiri (sholat) pada malam Ramadan karena iman dan mengharapkan ganjaran (dari Allah SWT), maka diampunkan dosa-dosanya yang telah lalu'.'  (HR. Muslim)
+        Niat Sholat Tarawih
+
+        Berikut bacaan niat sholat tarawih yang harus diketahui umat Islam sebelum menjalankan amalan sunnah tersebut:
+        Bacaan Sholat Tarawih Imam
+        اُصَلِّىسُنَّةَالتَّرَاوِيْحِرَكْعَتَيْنِمُسْتَقْبِلَالْقِبْلَةِأَدَاءًإِمَامًاِللهِتَعَالَى
+        Ushalli sunnatat Tarawihi rakatayni mustaqbilal qiblati adaan imaman lillahi ta’ala
+        Artinya: ' Aku menyengaja sembahyang sunnah Tarawih dua rakaat dengan menghadap kiblat, tunai sebagai imam karena Allah SWT ' .
+
+        Bacaan Sholat Tarawih Makmum
+        اُصَلِّىسُنَّةَالتَّرَاوِيْحِرَكْعَتَيْنِمُسْتَقْبِلَالْقِبْلَةِأَدَاءًمَأْمُوْمًالِلهِتَعَالَى
+        Ushalli sunnatat Tarawihi rakatayni mustaqbilal qiblati adaan mamuman lilahi ta’ala
+        Artinya: ' Aku menyengaja sembahyang sunnah Tarawih dua rakaat dengan menghadap kiblat, tunai sebagai makmum karena Allah SWT ' .
+        Keutamaan Sholat Tarawih
+        Dosa-dosa Diampuni
+        Keutamaan sholat tarawih yang pertama adalah diampuni dosa-dosanya oleh Allah SWT. Hal ini sebagaimana sabda Rasulullah dalam sebuah hadits sahih berikut ini,
+        ' Barang siapa ibadah (tarawih) di bulan Ramadan seraya beriman dan ikhlas, maka diampuni baginya dosa yang telah lampau.' (HR. Bukhari Muslim).
+        Untuk itu, bagi mereka yang berlomba-lomba mengerjakan sholat tarawih selama bulan Ramadan disebut akan terlahir kembali dengan jiwa yang bersih. Selain itu, sholat tarawih juga dapat mendekatkan jiwa kepada Allah SWT sehingga umat Islam pun senantiasa akan jauh dari segala larangan-Nya.
+        Setara dengan Qiyamul Lail
+        Selain itu, keutamaan sholat tarawih yakni umat Islam dapat mengerjakannya secara berjamaah, baik di masjid atau pun rumah sendiri. Sementara itu, sholat yang dikerjakan secara berjamaah disebut akan mendatangkan pahala yang setara dengan amalan semalam penuh.
+        ' Sesungguhnya, siapa saja yang shalat bersama imam hingga imam itu selesai, maka ia dicatat telah mengerjakan shalat semalam suntuk.' (HR. Tirmidzi).
+        Menguatkan Tali Silaturahmi
+        Keutamaan sholat tarawih yang berikutnya adalah mampu memperkuat tali silaturahmi antara umat Islam. Saat dilakukan berjamaah di masjid, maka muslim pun dapat bertemu dan bercakap-cakap sehingga tali persaudaraan akan semakin terjalin. Saat ditunaikan berjamaah di rumah, hubungan antar anggota keluarga pun juga akan semakin harmonis.
+        ' Seseorang yang menyambung tali silaturahmi bukanlah seorang yang membalas kebaikan dengan kebaikan. Akan tetapi seorang yang menyambung tali silaturahmi adalah orang yang berusaha kembali menyambung silaturahmi setelah sebelumnya diputuskan oleh pihak lain.' (HR. Bukhari).
+        Meningkatkan Kesehatan Jiwa dan Raga
+        Keutamaan sholat tarawih yang terakhir tak lain dapat meningkatkan kesehatan jiwa dan raga. Selain mendapatkan batin yang tenang dan damai dengan menjalankan perintah-Nya, shalat tarawih rupanya juga mampu meningkatkan kesehatan tubuh.
+        Di antara yaitu meningkatkan kesehatan tulang hingga persendian, membakar kalori yang tertimbun di dalam tubuh, menjauhkan dari penyakit diabetes, meningkatkan fungsi otak, serta membantu otak untuk mengendalikan hormon penyebab stres berlebih.
+        Meramaikan Masjid
+        Masjid menjadi tempat ibadah bagi umat Islam yang seharusnya selalu diisi dengan berbagai aktivitas yang banyak mendatangkan manfaat. Saat bulan Ramadan tiba, biasanya suasana masjid di malam hari akan ramai oleh para jamaah yang berdatangan untuk menjalankan sholat tarawih.
+        Dengan melakukan sholat tarawih secara berjamaah di masjid, hal ini akan membuat suasana di masjid terasa lebih hikmat dan tenang. Bahkan Allah SWT juga berjanji, barangsiapa yang mengerjakan sholat tarawih berjamaah, maka pahala yang didapat sebanyak 27 derajat. Hal ini seperti yang dijelaskan dalam sebuah hadis yang diriwayatkan oleh Bukhari berikut ini:
+        ' Sholat berjamaah lebih utama dibandingkan sholat sendirian dengan dua puluh tujuh derajat.' (HR. Bukhari).
+        Meningkatkan Ketakwaan dan Mendekatkan Diri pada Allah SWT
+        Keutamaan lainnya dari menjalankan sholat tarawih adalah bisa meningkatkan ketakwaan dan mendekatkan diri pada Allah SWT. Hal ini bisa sahabat Dream rasakan ketika sholat tarawih dan mendengarkan lantunan ayat suci yang dibacakan oleh imam, maka hati akan merasa lebih tenang.
+        "
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+</LinearLayout>

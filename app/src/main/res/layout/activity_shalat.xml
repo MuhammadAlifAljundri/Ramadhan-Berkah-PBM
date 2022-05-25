@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Shalat.ShalatActivity"
     android:orientation="vertical"
     android:background="@drawable/background">
 
-   //Header
+    //Header
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -22,26 +22,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="70dp"
             android:layout_marginLeft="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ramadhan"
+                android:text="Shalat"
                 android:textSize="48sp"
                 android:textStyle="bold"
                 android:textColor="#fff"
                 android:fontFamily="@font/ramadhan_karim"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Berkah"
-                android:textColor="#fff"
-                android:textSize="48sp"
-                android:textStyle="bold"
-                android:fontFamily="@font/ramadhan_karim"/>
         </LinearLayout>
 
         //Logo
@@ -54,45 +46,45 @@
 
     </LinearLayout>
 
-        //List Menu
-        //puasa
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_puasa"
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            app:cardCornerRadius="20dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground">
+    //List Menu
+    //shalat fardhu
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_shalat_fardhu"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shalat"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_puasa"
-                    android:layout_marginLeft="20dp"/>
+                android:text="Fardhu"
+                android:fontFamily="@font/littlemisspriss"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="80dp"
+                android:textColor="#31D590"/>
+        </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Puasa"
-                    android:fontFamily="@font/littlemisspriss"
-                    android:textSize="50sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="80dp"
-                    android:textColor="#31D590"/>
-            </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
-
-        //shalat
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_shalat"
+    //shalat
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_shalat_tarawih"
         android:layout_width="match_parent"
         android:layout_height="77dp"
         android:layout_marginTop="30dp"
@@ -115,7 +107,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Shalat"
+                android:text="Tarawih"
                 android:fontFamily="@font/littlemisspriss"
                 android:textSize="50sp"
                 android:textStyle="bold"
@@ -125,9 +117,9 @@
 
     </androidx.cardview.widget.CardView>
 
-        //serba-serbi
-        <androidx.cardview.widget.CardView
-        android:id="@+id/cv_serba_serbi"
+    //shalat witir
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_shalat_witir"
         android:layout_width="match_parent"
         android:layout_height="77dp"
         android:layout_marginTop="30dp"
@@ -144,13 +136,13 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_serbaserbi"
+                android:src="@drawable/ic_shalat"
                 android:layout_marginLeft="20dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Serba-Serbi"
+                android:text="Witir"
                 android:fontFamily="@font/littlemisspriss"
                 android:textSize="50sp"
                 android:textStyle="bold"

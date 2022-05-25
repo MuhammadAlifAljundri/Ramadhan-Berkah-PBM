@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.pbm.ramadhanberkahrevisi1.Kisah.KisahParaSahabatNabiActivity1;
+import com.pbm.ramadhanberkahrevisi1.Sejarah.SejarahIslamActivity1;
 
 public class NgabuburitActivity extends AppCompatActivity {
 
@@ -28,6 +29,15 @@ public class NgabuburitActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(NgabuburitActivity.this, KisahParaSahabatNabiActivity1.class);
+                startActivity(intent);
+            }
+        });
+
+        //cvSejarah Event Handler Onclick
+        cvSejarah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(NgabuburitActivity.this, SejarahIslamActivity1.class);
                 startActivity(intent);
             }
         });

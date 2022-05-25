@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
+    tools:context=".Puasa.NiatPuasaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/puasalogo"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="NIat Puasa"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Puasa Ramadan termasuk ibadah wajib yang sudah dijelaskan melalui firman Allah SWT dalam Q.S Al-Baqarah ayat 183.
+'Hai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang-orang sebelum kamu agar kamu bertaqwa.'
+        Saat menunaikan ibadah puasa Ramadan, umat Muslim wajib menahan diri dari lapar, dahaga, serta aneka perbuatan yang dapat membatalkan, mulai terbit fajar sampai terbenam matahari (magrib).
+        Tentunya hal ini untuk meningkatkan ketakwaan seorang Muslim. Pengertian serupa juga dijelaskan dalam kitab Subul al-Salam, yang berbunyi:
+        'Menahan diri dari makan, minum, jima' (bercampur dengan istri) dan lain-lain yang telah diperintahkan kepada kita untuk menahannya, sepanjang hari menurut cara yang disyariatkan. Demikian pula diperintahkan menahan diri dari ucapan yang diharamkan atau dimakruhkan, karena ada hadis-hadis yang melarang hal itu, itu semua berdasarkan waktu dan syarat-syarat yang telah ditetapkan.'
+        Secara harfiah, ibadah puasa Ramadan dilakukan sepanjang bulan suci Ramadan, dengan jumlah sekira 29 hingga 30 hari.
+        Selain Pengertian Puasa Ramadan di atas, ada beberapa hal penting yang perlu kamu ketahui juga, seperti syarat wajib, rukun dan sunah, hal yang makruh, serta hikmah yang diperoleh.
+        Berikut ini rangkuman hal-hal mengenai pengertian, syarat wajib, rukun dan sunah, hal yang makruh, serta hikmah yang diperoleh dari puasa Ramadan, seperti disadur dari Liputan6, Jumat (16/4/2021)
+
+        NIAT.
+        Berikut merupakan bacaan niat puasa Ramadhan:
+        نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانِ هذِهِ السَّنَةِ لِلهِ تَعَالَى
+        Artinya: “Saya niat berpuasa esok hari untuk menunaikan fardhu di bulan Ramadan tahun ini, karena Allah Ta'ala.
+        "
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+</LinearLayout>
