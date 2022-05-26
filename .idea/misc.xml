@@ -10,8 +10,9 @@
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/drawable/ic_arrow_back.xml" value="0.15953947368421054" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/drawable/ic_arrow_forwad.xml" value="0.15953947368421054" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/drawable/logo.xml" value="0.2526041666666667" />
+        <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_doa_puasa.xml" value="0.1366120218579235" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_hadist.xml" value="0.16" />
-        <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_highest_score.xml" value="0.1" />
+        <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_highest_score.xml" value="0.16" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_kisah_para_sahabat_nabi.xml" value="0.12568306010928962" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_kisah_para_sahabat_nabi1.xml" value="0.1" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_kisah_para_sahabat_nabi2.xml" value="0.1493421052631579" />
@@ -20,7 +21,7 @@
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_ngabuburit.xml" value="0.144" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_niat_puasa.xml" value="0.13831967213114754" />
-        <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_puasa.xml" value="0.13831967213114754" />
+        <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_puasa.xml" value="0.2" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_quiz.xml" value="0.16" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_sejarah_islam1.xml" value="0.14046052631578948" />
         <entry key="..\:/KURSUS/Belajar-Android/RamadhanBerkahRevisi1/app/src/main/res/layout/activity_sejarah_islam2.xml" value="0.1" />

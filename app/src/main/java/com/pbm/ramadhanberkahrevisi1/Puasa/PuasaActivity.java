@@ -21,86 +21,40 @@ public class PuasaActivity extends AppCompatActivity{
 
         //deklarasi variabel
         CardView cvNiat, cvDoa, cvSyarat;
-        LinearLayout lyNiat;
-
-//        lyNiat = findViewById(R.id.ly_niat);
-//
-//        lyNiat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intentNiat = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
-//                startActivity(intentNiat);
-//            }
-//        });
 
 
         //Menginisialisasi id ke dalam variabel
-//        cvNiat =  findViewById(R.id.cv_niat_puasa);
-//        cvDoa = (CardView) findViewById(R.id.cv_doa_puasa);
-//        cvSyarat =(CardView) findViewById(R.id.cv_syarat_rukun_puasa);
-
-//        cvNiat.setOnClickListener(this);
-//        cvDoa.setOnClickListener(this);
-//        cvSyarat.setOnClickListener(this);
-
-//        //cvNiat Event Handler Onclick
-//        cvNiat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
-//                startActivity(intent);
-//                finish();
-//            }
-//        });
-//
-//        //cvNgabuburit Event Handler Onclick
-//        cvDoa.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(PuasaActivity.this, DoaPuasaActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        //cvKuis Event Handler Onclick
-//        cvSyarat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(PuasaActivity.this, SyaratPuasaActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
+        cvNiat = findViewById(R.id.cv_niat);
+        cvDoa = findViewById(R.id.cv_doa_puasa);
+        cvSyarat = findViewById(R.id.cv_syarat_rukun_puasa);
 
 
+      //cvNiat Event Handler Onclick
+        cvNiat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
-//        public void btnNiatPuasa(New View view){
-//            Intent intent = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
-//            startActivity(intent);
-//        }
+      //cvDoa Event Handler Onclick
+        cvDoa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PuasaActivity.this, DoaPuasaActivity.class);
+                startActivity(intent);
+            }
+        });
 
+        //cvSyarat Event Handler Onclick
+        cvSyarat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PuasaActivity.this, SyaratPuasaActivity.class);
+                startActivity(intent);
+            }
+        });
     }
-
-    public void btnNiat(View view) {
-        Intent intentniat = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
-        startActivity(intentniat);
-    }
-
-//    @Override
-//    public void onClick(View v) {
-//        switch (v.getId()) {
-//            case R.id.cv_niat_puasa:
-//                Intent intent1 = new Intent(PuasaActivity.this, NiatPuasaActivity.class);
-//                startActivity(intent1);
-//                break;
-//            case R.id.cv_doa_puasa:
-//                break;
-//            case R.id.cv_syarat_rukun_puasa:
-//                break;
-//        }
-//    }
-
-
-
-
 }

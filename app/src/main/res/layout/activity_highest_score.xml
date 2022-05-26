@@ -6,44 +6,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Kuis.HighestScoreActivity"
-    android:background="#CCA6A6">
+    android:background="#009688">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
 
         <TextView
-            android:text="Skor Anda :"
-            android:textStyle="bold"
-            android:layout_width="500dp"
-            android:layout_height="wrap_content"
             android:id="@+id/textScore"
-            android:textColor="#fff"
-            android:padding="16dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView
-            android:text="Skor Tertinggi :"
-            android:textStyle="bold"
             android:layout_width="500dp"
             android:layout_height="wrap_content"
             android:padding="16dp"
+            android:text="Skor Anda :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/textHighScore"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Skor Tertinggi :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff"
+            android:textStyle="bold" />
 
         <Button
-            android:text="Coba Lagi"
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/button"
-            android:onClick="onClick" />
+            android:background="@drawable/bg_rounded_all"
+            android:backgroundTint="#fff"
+            android:onClick="onClick"
+            android:text="Coba Lagi" />
 
     </LinearLayout>
 

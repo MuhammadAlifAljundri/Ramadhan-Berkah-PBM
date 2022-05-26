@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RamadhanBerkahRevisi1">
         <activity
-            android:name=".SyaratPuasaActivity"
+            android:name=".Puasa.SyaratPuasaActivity"
             android:exported="false" />
         <activity
-            android:name=".DoaPuasaActivity"
+            android:name=".Puasa.DoaPuasaActivity"
             android:exported="false" />
         <activity
-            android:name=".NiatPuasaActivity"
+            android:name=".Puasa.NiatPuasaActivity"
             android:exported="false" />
         <activity
             android:name=".Puasa.PuasaActivity"

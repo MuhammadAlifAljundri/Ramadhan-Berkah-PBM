@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44B97A"
     tools:context=".Puasa.SyaratPuasaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/bg_alquran"
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/puasalogo"
+                app:riv_corner_radius_bottom_left="40dp"
+                app:riv_corner_radius_bottom_right="40dp"
+                app:riv_corner_radius_top_left="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_rounded_all"
+                android:backgroundTint="#7BC5A6"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/judulTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="150dp"
+                    android:gravity="bottom"
+                    android:text="Syarat dan Rukun Puasa"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    //konten
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/paragrafTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Syarat Wajib Puasa Ramadan
+Berikut ini syarat wajib untuk menjalankan puasa Ramadan yang baik dan benar:
+•	Mempunyai keyakinan Islam atau beragama Islam.
+•	Telah melalui masa baligh atau telah mencapai umur dewasa.
+•	Mempunyai akal.
+•	Sehat jasmani dan rohani.
+•	Bukan seorang musafir atau sedang melakukan perjalanan jauh.
+•	Suci dari haid dan nifas.
+•	Mampu atau kuat melaksanakan ibadah puasa Ramadan.
+
+Rukun Puasa Ramadan
+Niat, niat dan doa di bulan Ramadan merupakan tahapan penting dalam menjalankan ibadah puasa Ramadan. Niat dilakukan sebelum menjalankan ibadah puasa Ramadan.
+ Niat doa puasa Ramadan diucapkan sebelum fajar tiba. Beberapa hadis menjelaskan bahwa niat bisa diucapkan malam harinya sebelum sahur atau setelah salat tarawih.
+Menahan diri
+, Menahan diri dari kegiatan makan, minum, bersetubuh, maupun hal-hal lain yang membatalkan puasa.
+"
+            android:textSize="16sp"
+            android:lineHeight="25dp"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+
+</LinearLayout>

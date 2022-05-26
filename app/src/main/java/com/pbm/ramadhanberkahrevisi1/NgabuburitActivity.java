@@ -41,5 +41,7 @@ public class NgabuburitActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }

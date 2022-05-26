@@ -39,7 +39,7 @@
 
     //niat puasa
     <androidx.cardview.widget.CardView
-        android:onClick="btnNiat"
+        android:id="@+id/cv_niat"
         android:layout_width="match_parent"
         android:layout_height="77dp"
         android:layout_marginTop="100dp"
